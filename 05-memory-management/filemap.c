@@ -46,7 +46,8 @@ int main(void)
 	puts("*** memory map after mapping file ***");
 	fflush(stdout);
 	system(command);
-
+	printf(command);
+	
 	puts("");
 	printf("*** file contens before overwrite mapped region: %s", file_contents);
 

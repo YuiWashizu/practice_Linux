@@ -19,6 +19,7 @@ int main(void)
 	s = ctime(&t);
 	printf("%.*s: before allocation, please press Enter key\n",
 	       (int)(strlen(s) - 1), s);
+	printf("print : %d",(int)(strlen(s)-1));
 	getchar();
 
 	p = malloc(BUFFER_SIZE);
